@@ -7,4 +7,4 @@
 // This is the correct version and the output is false for both case's.
 var a = isNaN('11');
 var a = isNaN (2-10);
-console.log(a);
+console.log(a, a);

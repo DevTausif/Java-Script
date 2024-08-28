@@ -1,2 +1,4 @@
 var weight = 38;
-console.log(weight);
+var price = 38;
+var total = weight + price;
+console.log(total);

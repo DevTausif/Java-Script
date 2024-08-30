@@ -7,7 +7,7 @@ if(age >= 15){
         console.log('You Can go Inside The House');
     }
     else{
-        console.log('You can not go inside the mela');
+        console.log('You can not go inside the house');
     }
 }
 else{

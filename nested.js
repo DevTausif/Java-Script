@@ -1,6 +1,6 @@
-const money = 5;
+const money = 300;
 if(money >= 300){
-    console.log('Bro you are rich')
+    console.log('Bro you are rich');    
 }
 else{
     if(money > 100){

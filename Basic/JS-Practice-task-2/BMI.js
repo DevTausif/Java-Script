@@ -1,4 +1,7 @@
-const bmi = 22;
+let weight = 85; 
+let height = 1.7;
+
+const bmi = weight / (height * height);
 if(bmi < 18.5){
     console.log('You are Under Weight');
 }

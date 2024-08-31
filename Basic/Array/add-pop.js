@@ -4,7 +4,7 @@ console.log(number)
 number.push(44)
 console.log(number)
 // remove element in array
-let del=number.pop() // Store deleted array element on variable
+let del=number.pop() // Store deleted array last element on variable
 console.log(number)
 console.log(del)
 

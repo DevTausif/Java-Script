@@ -7,5 +7,6 @@ if(!number.includes(7)){
     console.log(number)
 }
 else{
-    console.log('Number not found')
+    number.pop();
+    console.log(number)
 }

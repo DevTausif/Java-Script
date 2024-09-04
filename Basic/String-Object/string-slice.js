@@ -14,4 +14,3 @@ console.log(friends)
 
 const realFriend = ['Rahim', ' Kahim', ' Dahim', ' Lahim', ' Fahim', ' Sahim']
 console.log(realFriend.join(','))
-console.log(realFriend.join('-'))

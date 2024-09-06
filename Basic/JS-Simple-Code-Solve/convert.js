@@ -10,15 +10,15 @@ console.log(height)
 
 function inchToFeet2(inch){
     const feet = inch /12;
-    const feetNumber =parseInt(feet)
+    const feetNumber =parseInt(feet);
     const inchRemaining= inch % 12;
     const result = feetNumber + 'ft'+ ' ' + inchRemaining + 'inch'
-    return result
+    return result;
 
 }
 
 const height2 = inchToFeet2(75);
-console.log(height2)
+console.log(height2);
 
 // miles to convert km
 

@@ -44,9 +44,10 @@ console.log(number)
 
 
 function getAge(person){
-    const age = person;
+    const age = person.age;
     return age;
 }
 
-const finalAge = getAge(25);
+const person = { age:25 }
+const finalAge = getAge(person);
 console.log(finalAge);

@@ -20,5 +20,5 @@ function getMax(num1, num2){
 const final = getMax(52,95);
 const final2 = getMax(95,100);
 const finalResult = getMax(final2,final);
-console.log(final);
+// console.log(final);
 console.log(finalResult);

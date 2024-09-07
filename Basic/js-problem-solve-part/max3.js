@@ -11,10 +11,11 @@ function getMax(jim,tim,kim){
     return ('No one will get the first prize');
 }
 
-// const jim = getMax(65);
-// const tim = getMax(98);
-// const kim = getMax(70);
-const final = getMax(65, 95, 70);
+
+const num1 = 65;
+const num2 = 98;
+const num3 = 70;
+const final = getMax(num1, num2 ,num3);
 console.log(final);
 
 const max = Math.max(12,52,100,5);

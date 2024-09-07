@@ -6,10 +6,22 @@ const phones = [
     {name : 'Nothing', price: 80000, camera: "50mp", color: 'Grey'}
 ]
 
+// cheap phone
 function getCheapestMobile(phones){
     let min = phones[0];
     for(const phone of phones){
         if(phone.price < min.price){
+             min = phone;
+        }
+    }
+    return min;    
+}
+
+// luxurious phone
+function getCheapestMobile(phones){
+    let min = phones[0];
+    for(const phone of phones){
+        if(phone.price > min.price){
              min = phone;
         }
     }

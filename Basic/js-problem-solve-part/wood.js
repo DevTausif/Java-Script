@@ -30,7 +30,8 @@ function shoppingPrice(shirtQuantity, pantQuantity, shoeQuantity){
     const totalPrice = shirtPrice + pantPrice + shoePrice;
     const totalShirtPrice = shirtPrice;
 
-    return [totalShirtPrice, totalPrice];
+    // return [totalShirtPrice, totalPrice];
+    return {totalShirtPrice, totalPrice};
 
 }
 

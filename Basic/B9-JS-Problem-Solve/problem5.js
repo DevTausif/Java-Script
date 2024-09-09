@@ -9,7 +9,7 @@ function monthlySavings(arr , livingCost) {
     for(let amount of arr){
         if(amount >= 3000){
             //deduct tax amount
-            let tax = amount * 0.2;
+            let tax = amount * 20 / 100;
              income += amount - tax ;
         }
         else{

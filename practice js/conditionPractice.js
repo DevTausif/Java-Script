@@ -75,9 +75,10 @@ let ticketFare = 800
 if(age < 10){
     console.log('free for children')
 }
-else if(!student){
+else if(student){
     const ticketPrice = ticketFare * 0.5
-    console.log(ticketPrice)
+    const ticketPrice2 = ticketFare - ticketPrice
+    console.log(ticketPrice2)
 }
 else if(age >= 60){
     const ticketPrice = ticketFare * 0.15

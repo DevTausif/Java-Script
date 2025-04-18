@@ -49,5 +49,5 @@ let myObject = {
 };
 
 for(const obj in myObject){
-    console.log(`key: ${obj} | ${myObject[obj]}`)
+    console.log(`key: ${obj} | type: ${typeof(myObject[obj])}`)
 }

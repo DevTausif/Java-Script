@@ -5,6 +5,6 @@ if(numbers.includes(99)){
     console.log(numbers.concat(nums))
 }
 else{
-    nums.splice(2,1,120,150)
+    nums.splice(2,2,120,155,255)
     console.log(nums)
 }

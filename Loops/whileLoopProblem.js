@@ -63,6 +63,8 @@ while(i <= 10){
 console.log('-------------')
 
 // problem 5
-for(let timer = 21; timer >=15; timer--){
+let timer = 21;
+while(timer >= 15){
     console.log(timer)
+    timer--
 }

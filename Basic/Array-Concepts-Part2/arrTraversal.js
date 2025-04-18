@@ -9,11 +9,11 @@ for(let i = 0; i< friends.length; i++){
     console.log(friends);
 }
 
-const numbers = [,5,2,5,6,2,4,8,5,6,1,85,5];
+const numbers = [5,2,5,6,2,4,8,5,6,1,85,5];
 for(let i = 0; i < numbers.length; i++){
     console.log(numbers[i]);
 }
-// while loop
+//  while loop
 let i =0;
 while(i < friends.length){
     console.log(friends[i]);

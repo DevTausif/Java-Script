@@ -17,5 +17,5 @@ console.log(reverse)
 // }
 // console.log(rev)
 
-// const reversed = sentence.split('').reverse().join('')
-// console.log(reversed)
+const reversed = sentence.split('').reverse().join('')
+console.log(reversed)

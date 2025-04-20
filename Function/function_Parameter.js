@@ -125,3 +125,42 @@ function find_Odd_Num(given_data){
 
 const given_Data2 = find_Odd_Num([2,3,6,5,4,2,1,2,5,8,9,6,3])
 console.log(given_Data2)
+
+// addition of array's value
+function arr_Addition(arr){
+    let sum = 0
+    const array = []
+    for(const number of arr){
+        if(!array.includes(number)){
+            array.push(number)
+            array.sort((a,b)=>{return a - b})
+        }
+    }
+
+    for(const num of array){
+        sum += num
+    }
+    return `Sum of Array ${sum}`
+}
+const given_Addition = arr_Addition([5,6,3,2,1,4,5,2])
+console.log(given_Addition)
+
+// Subtraction of object
+function sub_Obj(obj_Value){
+    let sum = 0
+    const arr = []
+    for(const key of Object.values(obj_Value)){
+        for(const key2 of key){
+            if(!arr.includes(key2)){
+                arr.push(key2)
+                arr.sort((a,b)=>{return a - b})
+            }
+        }
+    }
+    for(const arr2 of arr){
+        sum -= arr2
+    }
+    return `Sum of this Object ${sum}`
+}
+const obj_values = sub_Obj({arr:[5,6,2,3,5,2,1]})
+console.log(obj_values)

@@ -92,3 +92,36 @@ function checking_Duplicate_Value(get_Arr){
 const given_Arr2 = [2,5,6,8,5,6,3,2,5,4,1]
 const sorted_Duplicate_Value = checking_Duplicate_Value(given_Arr2)
 console.log(sorted_Duplicate_Value)
+
+
+// finding even number in an array
+function find_Even_Num(array){
+    const new_arr = []
+    for(let index of array){
+        if(index % 2 === 0 && !new_arr.includes(index)){
+           new_arr.push(index)
+        }
+    }
+    new_arr.sort((a,b)=>{return a - b})
+    return new_arr
+}
+
+const given_data = find_Even_Num([2,4,9,6,3,2])
+console.log(given_data)
+
+// finding odd number 
+function find_Odd_Num(given_data){
+
+    const odd_Arr = []
+    for(let index of given_data){
+        if(index % 2 === 1 && !odd_Arr.includes(index)){
+            odd_Arr.push(index)
+        }      
+    }
+
+    odd_Arr.sort((a, b)=>{return b - a})
+    return odd_Arr
+} 
+
+const given_Data2 = find_Odd_Num([2,3,6,5,4,2,1,2,5,8,9,6,3])
+console.log(given_Data2)
